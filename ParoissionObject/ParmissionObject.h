@@ -27,7 +27,7 @@ public:
 		return P & (1 << Pos)?true:false;
 	}
 
-	Value Get() const{
+	const Value& Get() const{
 		return P;
 	}
 
